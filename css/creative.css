@@ -10762,12 +10762,12 @@ header.masthead h1 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: rgb(6, 106, 139);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   text-align: center; 
-
+   
 }
 .newPortfolio {
   position: relative;
@@ -10776,4 +10776,16 @@ header.masthead h1 {
 .text-center {
   width: 100%;
   text-align: center;
+}
+.project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project-name {
+  font-size: 1.2rem;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  text-transform: uppercase;
 }
